@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    height: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navbar a{
+    color: white;
+ }
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:50vh;
+}
+
+.box1{background: #ff6348;}
