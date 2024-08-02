@@ -8,15 +8,16 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: grey;
-    height: 50px;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 30px;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 .navbar a{
-    color: white;
- }
+    color:black;
+}
 
 .logo{
     display: flex;
@@ -26,12 +27,23 @@ body{
 }
 
 .container{
-    position: relative;
+    position:relative;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    border:50vh;
+    flex-direction: row;
 }
 
-.box1{background: #ff6348;}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{background: whitesmoke;}
+.box2{background: whitesmoke;}
+.box3{background: whitesmoke;}
+.box4{background: whitesmoke;}
