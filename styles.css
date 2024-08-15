@@ -75,14 +75,13 @@ h1{
 
 .characters{
     display: flex;
-    padding: 5px;
     color: white;
 }
 
 .column{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
     color: white;
 }
 
