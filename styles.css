@@ -27,8 +27,8 @@ body{
 }
 
 .container{
-    position:relative;
-    justify-content: center;
+    position: relative;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     display: flex;
@@ -43,7 +43,7 @@ body{
     justify-content: center;
     background-color: blue;
     height: 575px;
-    align-items: top;
+    align-items: center;
     text-align: center;
     padding-top: 2%;
 }
@@ -54,7 +54,7 @@ body{
 .box4{background: whitesmoke;}
 .box5{background: whitesmoke;}
 .box6{background: whitesmoke;}
-.box7{background: blue;}
+/* .box7{background: blue;} */
 
 h1{
     color: white;
@@ -63,15 +63,29 @@ h1{
 .slideshow{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
-.slideshow a{
+/* .slideshow a{
     color: white;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-block: 1%;
+} */
+
+.characters{
+    display: flex;
+    padding: 5px;
+    color: white;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.column p{
+    color: white;
 }
